@@ -1,0 +1,64 @@
+<!DOCTYPE html>  
+<html lang="zh-CN">  
+<head>  
+    <meta charset="UTF-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+    <title>Zhang.qs 个人主页</title>  
+    <style>  
+        body {  
+            margin: 0;  
+            padding: 0;  
+            overflow-x: hidden;  
+            background: linear-gradient(45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);  
+            background-size: 400% 400%;  
+            animation: gradient 15s ease infinite;  
+        }  
+  
+        h1 {  
+            position: relative;  
+            color: white;  
+            text-align: center;  
+            font-size: 5em;  
+            margin-top: 20vh;  
+            animation: float 3s ease-in-out infinite;  
+            text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);  
+        }  
+  
+        @keyframes gradient {  
+            0% {  
+                background-position: 0% 50%;  
+            }  
+            50% {  
+                background-position: 100% 50%;  
+            }  
+            100% {  
+                background-position: 0% 50%;  
+            }  
+        }  
+  
+        @keyframes float {  
+            0% {  
+                transform: translateY(0);  
+                text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);  
+            }  
+            50% {  
+                transform: translateY(-20px);  
+                text-shadow: 0 0 20px rgba(255, 255, 255, 0.8);  
+            }  
+            100% {  
+                transform: translateY(0);  
+                text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);  
+            }  
+        }  
+  
+    </style>  
+</head> 
+<body>  
+    <h1>Zhang.qs 个人主页</h1>  
+  
+    <p>姓名：Zhang.qs</p>  
+    <p>邮箱：<a href="mailto:cq.zhangqs@fujitsu.com">cq.zhangqs@fujitsu.com</a></p>  
+  
+    <p>行路难，行路难，多歧路，今安在？长风破浪会有时，直挂云帆济沧海。</p>  
+</body>  
+</html>
